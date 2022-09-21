@@ -10,10 +10,12 @@ import {
   View,
 } from 'react-native';
 
+import Cesta from './src/telas/Cesta'
+
 export default function app() {
   return (
     <View style={styles.container}>
-      <Text>Olá mundo!!!</Text>
+      <Cesta/>
     </View>
   );
 }
